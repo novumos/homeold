@@ -1,0 +1,17 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "krautlightbox";
+  font-style: normal;
+  font-weight: 400;
+  src: url("krautlightbox.eot") format("eot"), url("krautlightbox.eot") format("embedded-opentype"), url("krautlightbox.woff") format("woff"), url("krautlightbox.ttf") format("truetype"), url("krautlightbox.svg") format("svg");
+}
+.kraut-lb-testcanvas { position: absolute !important; top: -9999px !important; left: -9999px !important; visibility: hidden; }
+.kraut-lb-mask { display: block; position: relative; width: 100%; height: auto; background-image: url("kraut-lb-mask.jpg"); box-sizing: border-box; opacity: 0; z-index: -999999; }
+@media (max-width: 480px) {
+}
+@media (max-device-width: 480px) {
+}
+@media (max-height: 360px) and (orientation: landscape) {
+}
+@media (max-height: 460px) and (orientation: portrait) {
+}
