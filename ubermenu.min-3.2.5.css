@@ -1,0 +1,80 @@
+/* Code tidied up by ScrapBook */
+.ubermenu, .ubermenu .ubermenu-column, .ubermenu .ubermenu-divider, .ubermenu .ubermenu-icon, .ubermenu .ubermenu-image, .ubermenu .ubermenu-item, .ubermenu .ubermenu-nav, .ubermenu .ubermenu-retractor, .ubermenu .ubermenu-row, .ubermenu .ubermenu-search, .ubermenu .ubermenu-search-input, .ubermenu .ubermenu-search-submit, .ubermenu .ubermenu-submenu, .ubermenu .ubermenu-submenu-footer, .ubermenu .ubermenu-tabs, .ubermenu .ubermenu-tabs-panels, .ubermenu .ubermenu-target, .ubermenu-responsive-toggle { margin: 0px; padding: 0px; left: auto; right: auto; top: auto; bottom: auto; text-indent: 0px; clip: auto; position: static; background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px; text-transform: none; overflow: visible; z-index: 10; box-shadow: none; box-sizing: border-box; vertical-align: top; line-height: 1.3em; border: medium none; border-radius: 0px; pointer-events: auto; }
+.ubermenu, .ubermenu .ubermenu-column, .ubermenu .ubermenu-divider, .ubermenu .ubermenu-item, .ubermenu .ubermenu-nav, .ubermenu .ubermenu-retractor, .ubermenu .ubermenu-row, .ubermenu .ubermenu-search, .ubermenu .ubermenu-search-input, .ubermenu .ubermenu-search-submit, .ubermenu .ubermenu-submenu, .ubermenu .ubermenu-submenu-footer, .ubermenu .ubermenu-tabs, .ubermenu .ubermenu-tabs-panels, .ubermenu .ubermenu-target, .ubermenu-responsive-toggle { height: auto; width: auto; max-height: none; min-height: 0px; }
+.ubermenu .ubermenu-image, .ubermenu .ubermenu-submenu-drop { backface-visibility: hidden; transform: translateZ(0px); }
+.ubermenu { display: block; line-height: 1.3em; text-align: left; }
+.ubermenu-bound, .ubermenu-bound-inner .ubermenu-nav { position: relative; }
+.ubermenu, .ubermenu-nav { overflow: visible !important; z-index: 100; }
+.ubermenu-nav { text-align: inherit; }
+.ubermenu-nav, .ubermenu-row, .ubermenu-submenu { display: block; margin: 0px; padding: 0px; list-style: outside none none; }
+.ubermenu a.ubermenu-target, .ubermenu-trigger-click .ubermenu-has-submenu-drop > .ubermenu-target { cursor: pointer; }
+.ubermenu-responsive-toggle, .ubermenu-sticky-toggle-wrapper { display: none; text-decoration: none; cursor: pointer; max-width: 100%; }
+.ubermenu-responsive-toggle:hover { text-decoration: none; }
+.ubermenu-responsive-toggle .fa { width: 1.3em; text-align: center; margin-right: 0.6em; }
+.ubermenu-responsive-toggle-content-align-left { text-align: left; }
+.ubermenu-bar-align-full { clear: both; }
+.ubermenu .ubermenu-item { text-align: left; display: inline-block; vertical-align: top; }
+.ubermenu .ubermenu-item-level-0 { vertical-align: bottom; backface-visibility: visible; }
+.ubermenu .ubermenu-item.ubermenu-item-level-0 { float: none; }
+.ubermenu-items-align-left.ubermenu-horizontal .ubermenu-item.ubermenu-item-level-0, .ubermenu.ubermenu-horizontal .ubermenu-item.ubermenu-align-left { float: left; }
+body:not(.rtl) .ubermenu.ubermenu-horizontal .ubermenu-item-level-0:first-child > .ubermenu-target { border-left: medium none; }
+.ubermenu .ubermenu-colgroup .ubermenu-column, .ubermenu .ubermenu-custom-content-padded, .ubermenu .ubermenu-nonlink, .ubermenu .ubermenu-retractor, .ubermenu .ubermenu-submenu-padded, .ubermenu .ubermenu-submenu-type-stack > .ubermenu-item-normal > .ubermenu-target, .ubermenu .ubermenu-target, .ubermenu .ubermenu-widget, .ubermenu-responsive-toggle { padding: 15px 20px; }
+.ubermenu .ubermenu-target { display: block; text-decoration: none; position: relative; }
+.ubermenu .ubermenu-target-with-image { overflow: hidden; }
+.ubermenu-sub-indicators .ubermenu-has-submenu-drop > .ubermenu-target::after { position: absolute; right: 10px; top: 50%; margin-top: -6px; content: ""; display: inline-block; font-family: FontAwesome; font-style: normal; font-weight: 400; line-height: 1; color: inherit; -moz-osx-font-smoothing: grayscale; }
+.ubermenu-sub-indicators .ubermenu-has-submenu-drop > .ubermenu-target { padding-right: 25px; }
+.ubermenu .ubermenu-target-text { display: inline-block; vertical-align: middle; font-family: inherit; font-weight: inherit; color: inherit; }
+.ubermenu .ubermenu-target-with-image > .ubermenu-target-text { display: block; clear: none; }
+.ubermenu .ubermenu-image { display: block; max-width: 100%; transition: opacity 1s ease 0s; opacity: 1; }
+.ubermenu .ubermenu-image:not(.ubermenu-image-lazyload) { height: auto; }
+.ubermenu .ubermenu-item-layout-image_above > .ubermenu-image { margin-bottom: 10px; }
+.ubermenu .ubermenu-content-align-center { text-align: center; }
+.ubermenu .ubermenu-content-align-center > .ubermenu-image { float: none; margin-left: auto; margin-right: auto; }
+.ubermenu .ubermenu-column, .ubermenu .ubermenu-row { max-width: 100%; }
+.ubermenu .ubermenu-item .ubermenu-submenu-drop { position: absolute; z-index: 500; top: -10000px; height: 0px; max-height: 0px; visibility: hidden; overflow: hidden; }
+.ubermenu .ubermenu-item:not(.ubermenu-active) .ubermenu-submenu-drop { min-height: 0px !important; }
+.ubermenu .ubermenu-item .ubermenu-submenu-drop { box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15); }
+.ubermenu .ubermenu-item-level-0 > .ubermenu-submenu-drop { clip: rect(0px, 5000px, 5000px, -5000px); }
+.ubermenu-bound .ubermenu-submenu-type-mega { min-width: 50%; }
+.ubermenu .ubermenu-submenu-drop.ubermenu-submenu-align-full_width, .ubermenu .ubermenu-submenu-drop.ubermenu-submenu-align-left_edge_bar { left: 0px; }
+.ubermenu .ubermenu-submenu-drop.ubermenu-submenu-align-full_width { width: 100%; }
+.ubermenu .ubermenu-retractor { display: block; clear: both; text-align: center; cursor: pointer; }
+.ubermenu .ubermenu-retractor:hover { background: rgba(0, 0, 0, 0.1) none repeat scroll 0% 0%; }
+.ubermenu .ubermenu-item .ubermenu-submenu-drop { transition-duration: 0.3s; transition-timing-function: ease-in; }
+.ubermenu-transition-shift .ubermenu-item .ubermenu-submenu-drop { margin-top: 20px; top: auto; opacity: 0; transition-property: margin-top, opacity, visibility; }
+.ubermenu.ubermenu-transition-slide .ubermenu-active > .ubermenu-submenu.ubermenu-submenu-type-mega, .ubermenu:not(.ubermenu-transition-slide) .ubermenu-submenu.ubermenu-submenu-type-mega { max-height: 600px; overflow-y: auto; }
+.ubermenu.ubermenu-disable-submenu-scroll .ubermenu-item > .ubermenu-submenu.ubermenu-submenu-type-mega { overflow: hidden; }
+.ubermenu .ubermenu-submenu .ubermenu-column { display: block; float: left; width: auto; }
+.ubermenu .ubermenu-submenu-type-mega.ubermenu-submenu-content-align-center { text-align: center; }
+.ubermenu .ubermenu-submenu-type-mega.ubermenu-submenu-content-align-center > .ubermenu-column, .ubermenu .ubermenu-submenu-type-mega.ubermenu-submenu-content-align-center > .ubermenu-row > .ubermenu-column, .ubermenu .ubermenu-submenu-type-mega.ubermenu-submenu-content-align-left > .ubermenu-column, .ubermenu .ubermenu-submenu-type-mega.ubermenu-submenu-content-align-left > .ubermenu-row > .ubermenu-column, .ubermenu .ubermenu-submenu-type-mega.ubermenu-submenu-content-align-right > .ubermenu-column, .ubermenu .ubermenu-submenu-type-mega.ubermenu-submenu-content-align-right > .ubermenu-row > .ubermenu-column { display: inline-block; float: none; }
+.ubermenu .ubermenu-submenu .ubermenu-column-auto { min-width: 100px; width: auto; }
+.uber-clear::after, .ubermenu .ubermenu-column::after, .ubermenu .ubermenu-content-block::after, .ubermenu .ubermenu-image::after, .ubermenu .ubermenu-postlist-item::after, .ubermenu .ubermenu-submenu::after, .ubermenu .ubermenu-tabs::after, .ubermenu::after { content: ""; display: table; clear: both; }
+.ubermenu { background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px; }
+.ubermenu-submenu-drop { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+@media screen and (max-width: 959px) {
+}
+@media screen and (max-width: 782px) {
+}
+@media screen and (min-width: 960px) {
+  .ubermenu-responsive-default.ubermenu { display: block !important; }
+  .ubermenu-responsive-default.ubermenu-responsive.ubermenu-retractors-responsive .ubermenu-retractor-mobile { display: none; }
+}
+@media screen and (max-width: 959px) {
+  .ubermenu-responsive-toggle, .ubermenu-sticky-toggle-wrapper { display: block; }
+  .ubermenu-responsive-default.ubermenu-responsive { width: 100%; max-height: 500px; visibility: visible; overflow: visible; transition: max-height 0.3s ease-in 0s; }
+  .ubermenu-responsive-default.ubermenu-responsive.ubermenu { margin: 0px; }
+  .ubermenu-responsive-default.ubermenu-responsive.ubermenu .ubermenu-nav { display: block; }
+  .ubermenu-responsive-default.ubermenu-responsive.ubermenu-responsive-collapse { max-height: 0px; overflow: hidden !important; visibility: hidden; }
+  .ubermenu-responsive-default.ubermenu-responsive.ubermenu-responsive-collapse:not(.ubermenu-in-transition) { border-top-width: 0px; border-bottom-width: 0px; }
+  .ubermenu-responsive-default.ubermenu-responsive.ubermenu-responsive-collapse .ubermenu-item .ubermenu-submenu { display: none; }
+  .ubermenu-responsive-default.ubermenu-responsive .ubermenu-item-level-0 { width: 50%; }
+  .ubermenu-responsive-default.ubermenu-responsive .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { border: medium none; box-shadow: none; }
+  .ubermenu-responsive-default.ubermenu-responsive .ubermenu-nav .ubermenu-item .ubermenu-submenu.ubermenu-submenu-drop { width: 100%; min-width: 100%; max-width: 100%; top: auto; left: 0px !important; }
+  .ubermenu-responsive-default.ubermenu-responsive .ubermenu-submenu.ubermenu-submenu-type-mega > .ubermenu-item.ubermenu-column { min-height: 0px; border-left: medium none; float: left; display: block; }
+  .ubermenu-responsive-default.ubermenu.ubermenu-responsive .ubermenu-column, .ubermenu-responsive-default.ubermenu.ubermenu-responsive .ubermenu-column-auto { min-width: 50%; }
+  .ubermenu-responsive-default.ubermenu.ubermenu-responsive .ubermenu-column:nth-of-type(2n+1) { clear: both; }
+}
+@media screen and (max-width: 480px) {
+  .ubermenu-responsive-default.ubermenu.ubermenu-responsive .ubermenu-item-level-0 { width: 100%; }
+  .ubermenu-responsive-default.ubermenu.ubermenu-responsive .ubermenu-column, .ubermenu-responsive-default.ubermenu.ubermenu-responsive .ubermenu-column-auto { min-width: 100%; }
+}
